@@ -1,75 +1,143 @@
+<div align="center">
+
 # Handwritten Digit Recognizer
 
-Train a Convolutional Neural Network (CNN) to recognize handwritten digits using the MNIST dataset.
+<p align="center">
+  A clean and responsive handwritten digit recognition web application.
+</p>
 
-This project includes:
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge" />
+</p>
 
-- A TensorFlow/Keras CNN training script
-- Image preprocessing for custom handwritten digit images
-- A command-line predictor
-- A polished Streamlit website with a manual draw-and-train studio
-- Lightweight tests for preprocessing utilities
+<p align="center">
+  <a href="https://hand-writtendigitrecognizer.netlify.app/">Live Demo</a>
+</p>
 
-## Project Structure
+</div>
 
-```text
-.
-├── app.py
-├── requirements.txt
-├── src/
-│   └── digit_recognizer/
-│       ├── __init__.py
-│       ├── image_utils.py
-│       ├── model.py
-│       ├── predict.py
-│       └── train.py
-└── tests/
-    └── test_image_utils.py
+---itten Digit Recognizer
+
+<p align="center">
+  A clean and responsive handwritten digit recognition web application.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img sr## Overview.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Responsive-Design-success?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <a href="https://hand-writtendigitrecognizer.netlify.app/">Live Demo</a>
+</p>## FeaturesA ### Modern Interfaceigit recognition web application with a clean and responsive interface. The project demonstrates the implementation of a digit recognition system using modern web technologies and focuses on si### Responsive Layoutand performance.
+
+---
+
+## Overview
+
+The **Handwritten Digit Recognizer** is designed to simulate an AI-powered digit recognition interface where users can explore handwritten ## Technologies Usedisually appealing environment.
+
+The project focuses on:
+
+* 🎨 Modern UI/UX Design
+* ⚡ Fast and Lightweight Performance
+* 📱 Fully Responsive Layout
+* 🧠 AI & Machine Learning Theme
+* 🌐 Netlify R## Project Structure# Features
+
+### Modern Interface
+
+* Elegant hero section with futuristic design
+* Interactive digit display board
+* Smooth layout and clean typography
+* Professional gradient backgrounds
+* Modern glassmorphism-i## Installationiv### Clone the Repository- Desktop
+
+  * Tablet
+  * Mobile Devices
+
+### Performance
+
+* Lightweight static website
+* Fas### Navigate to Project Folderncies
+* Easy deployment
+
+---
+
+| Technology | ### Run the Projectweb page |
+| CSS3 | Styling and animations |
+| JavaScript | Interactive functionality |
+| Netlify | Deployment and hosting |
+
+---
+
+## 📂 Project Structure
+
+```bash
+handwritten─ index.html       # M     # Project documentation
+│
+└── assets/          # Images and additional resources (optional)
 ```
 
-## Setup
+---
 
-TensorFlow wheels are not always available for the newest Python versions. If `pip install tensorflow` fails on Python 3.14, create an environment with Python 3.11 or 3.12 and install there.
+## Author Installation & Setup
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python -m pip install -e .
+### 1️⃣ Clone the Repository### Connect
+
+g- Portfolio: [https://hand-writtendigitrecognizer.netlify.app/o-](https://hand-writtendigitrecognizer.netlify.app/o-) LinkedIn:
+
+* GitHub: sh
+  cd handwritten-digit-recognizer
+
 ```
 
-## Train the CNN
+### 3️⃣ Open in Browser
 
-```powershell
-python -m digit_recognizer.train --epochs 5 --model-path models/mnist_cnn.keras
-```
+Simply open:---
 
-The script downloads MNIST automatically through Keras, trains the CNN, evaluates it on the test set, and saves:
+## Licindex.html
+`
 
-- `models/mnist_cnn.keras`
-- `reports/training_history.png`
+---
 
-On a typical machine, 5 epochs should reach about 99% test accuracy.
+---
 
-## Predict a Custom Image
+## Future Improvements
 
-Use a dark digit on a light background or a light digit on a dark background. The preprocessing step converts the image to the 28x28 MNIST format.
+- ✍️ Real canvas drawing support
+- 🤖 Tenn
+- 📊 Prediction accuracy visualization
+- 🌙 Dark mode support
+- ☁️ Cloud model hosting
+- 📈 Analyti
 
-```powershell
-python -m digit_recognizer.predict path\to\digit.png --model-path models/mnist_cnn.keras
-```
+---
 
-## Run the Demo App
+## Author
 
-```powershell
-streamlit run app.py
-```
+**Hithesh H**
 
-Use the manual studio to draw digits, label them, add training samples, train the browser model, and predict directly from your drawing. After training the TensorFlow CNN, you can also upload an image and the app will show the predicted class with class probabilities.
+Data Science Engineering Student
 
-## Run Tests
+### Links
 
-```powershell
-python -m unittest discover -s tests
+- App: https://hand-writtendigitrecognizer.netlify.app/
+- LinkedIn: 
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+-cense
+
+This project is licensed under the MIT License.
+
 ```
